@@ -1,0 +1,7 @@
+B0 [lhead:, if(cond) goto lexit]
+B1 [if(x) goto lhead]
+B2 [if(i) goto l1]
+B3 [l1:, if(cond) goto lhead]
+B4 [goto lexit]
+B5 [lexit:, if(x) goto lhead]
+B6 [cond = x+i;]

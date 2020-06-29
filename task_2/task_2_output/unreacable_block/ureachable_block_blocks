@@ -1,0 +1,4 @@
+B0 [lhead:, cond = i>100;, if(cond) goto lexit]
+B1 [i = i+1;, goto lhead]
+B2 [l1:, print(cond);]
+B3 [lexit:, print(x);]

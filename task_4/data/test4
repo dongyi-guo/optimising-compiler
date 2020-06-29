@@ -1,0 +1,16 @@
+void main() {
+    int x;
+    int y;
+    int z;
+    x = 0;
+    y = x + 7;
+    if (y) goto label1;
+    z = 3;
+label1:
+    z = x * y;
+    if (z) goto label3;
+label2:
+    print(z);
+label3:
+    print(y);
+}

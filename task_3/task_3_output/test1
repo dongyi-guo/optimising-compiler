@@ -1,0 +1,13 @@
+void main() {
+
+	int x;
+	int i;
+
+	goto l1;
+
+l1:
+	goto lexit;
+
+lexit:
+	i = 0;
+}

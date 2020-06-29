@@ -1,0 +1,17 @@
+void main()
+{
+    int cond;
+    int x;
+    int i;
+
+lhead:
+    if (cond) goto lexit;
+    if (x) goto lhead;
+    if (i) goto l1;
+l1:
+    if(cond) goto lhead;
+    goto lexit;
+lexit:
+    if(x) goto lhead;
+    cond = x + i;
+}

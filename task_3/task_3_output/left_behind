@@ -1,0 +1,13 @@
+void main() {
+
+	int x;
+	int i;
+	int cond;
+
+lhead:
+	x = x+1;
+	cond = x-i;
+
+lexit:
+	x = x+1;
+}

@@ -1,0 +1,8 @@
+void main() {
+    int x;
+lhead:
+    x = x + 1;
+    if(x) goto lexit;
+lexit:
+    print(x);
+}

@@ -1,0 +1,18 @@
+void main()
+{
+    int cond;
+    int x;
+    int i;
+    int x;
+
+lhead:
+    cond = i > 100;
+    if (cond) goto lexit;
+    i = i + 1;
+    x = 2 * x;
+    goto lhead;
+lhead:
+    print(x);
+lexit:
+    print(i);
+}

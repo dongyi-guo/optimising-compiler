@@ -1,0 +1,18 @@
+void main() {
+
+    int x;
+    int y;
+    int z;
+    int cond;
+
+    x = 3;
+    y = x > 2;
+    if (y) goto label;
+label:
+    x = x - 1;
+    y = x = 0;
+    if (y) goto end;
+    goto label;
+end:
+    y = x * z;
+}

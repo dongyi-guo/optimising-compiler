@@ -1,0 +1,10 @@
+void main() {
+    int x;
+    int y;
+
+    x = 3;
+    if(x) goto label;
+label:
+    y = x + 2;
+
+}

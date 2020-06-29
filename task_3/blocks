@@ -1,0 +1,2 @@
+B0 [lhead:, x = x+1;, if(x) goto lexit;]
+B1 [lexit:, print(x);]

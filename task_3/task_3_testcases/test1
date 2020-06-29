@@ -1,0 +1,18 @@
+void main()
+{
+ int cond;
+ int x;
+ int i;
+ goto l1;
+
+lhead:
+ x = 2;
+ goto l1;
+l1:
+ goto lexit;
+lexit:
+ int a;
+ i = 0;
+ 
+ 
+}

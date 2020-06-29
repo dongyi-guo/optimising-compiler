@@ -1,0 +1,26 @@
+void main() {
+
+    int a;
+    int b;
+    int c;
+    int d;
+
+    a = 0 / b;
+    b = a * 2;
+    c = b = 0;
+    if (c) goto label1;
+
+    d = 1;
+
+label1:
+    a = d * 2;
+    d = 1;
+    b = d * 5;
+    goto  label3;
+
+label2:
+    print(b);
+
+label3:
+    print(b);
+}
